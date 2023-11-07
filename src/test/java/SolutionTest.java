@@ -16,7 +16,7 @@ public class SolutionTest {
     public void eliminateMaximumTest2() {
         int[] dist = {1, 1, 2, 3};
         int[] speed = {1, 1, 1, 1};
-        int expected = 3;
+        int expected = 1;
         int actual = new Solution().eliminateMaximum(dist, speed);
 
         Assert.assertEquals(expected, actual);
